@@ -1,15 +1,7 @@
-# word-count
-
-## Build
+## Reproduce
 
 ```bash
-python setup.py install
+python setup.py build_ext --inplace
 ```
 
-## Usage
-
-```python
-from word_count import search
-
-search('path/to/file', 'word')
-```
+Then keep try `python segfault.py`, soon it would segfaults on macOS, should be easier to reproduce on Linux.
