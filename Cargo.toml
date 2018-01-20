@@ -1,0 +1,11 @@
+[package]
+authors = ["Messense Lv <messense@icloud.com>"]
+name = "word-count"
+version = "0.1.0"
+
+[dependencies]
+pyo3 = "0.2"
+
+[lib]
+name = "word_count"
+crate-type = ["cdylib"]
